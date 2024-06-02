@@ -1,0 +1,131 @@
+.body-container {
+  @apply flex justify-evenly py-4 flex-col items-center;
+}
+header {
+  @apply w-[80%] flex gap-10 h-[40px] items-center;
+}
+.logo-container {
+  @apply flex justify-center items-center gap-2;
+}
+
+.link-container {
+  @apply flex  gap-8;
+}
+
+.link-container p {
+  @apply cursor-pointer;
+}
+.header-contentContainer {
+  @apply w-[100%] flex justify-between h-[100%] items-center;
+}
+.download-btn {
+  @apply bg-black text-white h-[100%] px-8 rounded-sm;
+}
+.main-content {
+  @apply flex w-[80%] h-[100%];
+}
+.content-container {
+  @apply w-[100%] flex flex-col gap-4 pr-[15%];
+}
+.content-container h3 {
+  @apply text-5xl font-bold;
+}
+.started-btn,
+.watch-btn {
+  @apply bg-black text-white h-[40px] px-6 flex justify-center items-center gap-2 rounded-sm;
+}
+.watch-btn {
+  @apply bg-white text-black;
+}
+.left {
+  @apply w-[60%]  flex flex-col items-center justify-center;
+}
+.right {
+  @apply w-[40%] pt-4 h-full;
+}
+.secondContent-container {
+  @apply bg-black text-white flex items-center py-2 px-6 rounded-md gap-2 h-[50px] transform -rotate-[30deg];
+}
+.trophy-container {
+  @apply flex items-center gap-2 justify-center;
+}
+.icon {
+  @apply border-[1.4px] border-red-500 rounded-full p-1 text-red-500;
+}
+.image-1 {
+  @apply absolute  top-[14%] h-[80%] right-12;
+}
+.image-2 {
+  @apply relative h-[95%];
+}
+
+.tag-container {
+  @apply absolute bottom-[20%] left-[10%];
+}
+.trail-container {
+  @apply bg-red-500 text-black font-semibold px-6  h-[50px] flex gap-4 absolute bottom-[-14.76vh] right-0 rounded-tl-[1rem] rounded-bl-3xl pl-20;
+}
+
+.centerTag-container {
+  @apply bg-red-500 text-black font-semibold px-6 py-2 h-[50px] absolute transform -rotate-[45deg] right-0 top-[-1vh] rounded-tl-xl;
+}
+
+.leftBtn-container {
+  @apply flex gap-4;
+}
+@media (max-width: 500px) {
+  header {
+    @apply text-[.7rem] w-[90%] gap-6;
+  }
+  .link-container {
+    @apply flex  gap-2;
+  }
+  .download-btn {
+    @apply px-2 py-1 h-fit;
+  }
+  .content-container {
+    @apply pt-[20%];
+  }
+  .content-container h3 {
+    @apply text-2xl;
+  }
+  .content-container p {
+    @apply text-[12px];
+  }
+  .started-btn,
+  .watch-btn {
+    @apply bg-black text-white text-[13px] h-[30px] px-6;
+  }
+  .watch-btn {
+    @apply bg-transparent text-black;
+  }
+  .leftBtn-container {
+    @apply flex-col;
+  }
+  .right {
+    @apply h-full;
+  }
+  .image-2 {
+    @apply absolute h-[35%] mt-[60px] right-[10%];
+  }
+  .image-1 {
+    @apply absolute h-[45%] top-36 right-0;
+  }
+  .blur-right {
+    @apply hidden;
+  }
+
+  .secondContent-container {
+    @apply hidden;
+  }
+  .trophy-container {
+    @apply hidden;
+  }
+  .centerTag-container {
+    @apply hidden;
+  }
+
+  .trail-container {
+    @apply hidden;
+  }
+}
