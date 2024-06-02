@@ -2,7 +2,7 @@
 
 This project features a React-based landing page component designed with TailwindCSS for styling and responsiveness. The component includes various sections such as a header, main content, and feature highlights with icons and images. It is optimized for both desktop and mobile views.
 
-- Checkout the live projject link - [https://uifry-landingpage.netlify.app/]
+- Checkout the live project link - [https://uifry-landingpage.netlify.app/]
 
 ## Features
 
